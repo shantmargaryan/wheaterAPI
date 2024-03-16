@@ -1,0 +1,30 @@
+<svg width="24.547974" height="25.233032" viewBox="0 0 24.548 25.233" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<defs>
+		<filter id="filter_240_1520_dd" x="0.000000" y="0.000000" width="24.547974" height="25.233032" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="-1.50827" dy="2.26241"/>
+			<feGaussianBlur stdDeviation="0.251379"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="-0.754137" dy="0.754137"/>
+			<feGaussianBlur stdDeviation="0.502758"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_2"/>
+		</filter>
+		<clipPath id="clip240_1520">
+			<rect id="hum" width="22.285536" height="22.216467" transform="translate(2.262451 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_240_1520_dd)">
+		<rect id="hum" width="22.285536" height="22.216467" transform="translate(2.262451 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip240_1520)">
+			<path id="Vector" d="M13.4053 2.87018L8.80896 7.45233C7.8999 8.35852 7.28088 9.51312 7.03015 10.7701C6.77942 12.027 6.9082 13.3298 7.40015 14.5139C7.89221 15.6978 8.72534 16.7098 9.79419 17.4218C10.863 18.1338 12.1198 18.5138 13.4053 18.5138C14.6908 18.5138 15.9475 18.1338 17.0164 17.4218C18.0853 16.7098 18.9185 15.6978 19.4104 14.5139C19.9023 13.3298 20.0311 12.027 19.7804 10.7701C19.5297 9.51312 18.9106 8.35852 18.0017 7.45233L13.4053 2.87018ZM13.4053 0.252319L19.3147 6.14337C20.4834 7.30853 21.2793 8.79303 21.6018 10.4091C21.9242 12.0251 21.7588 13.7003 21.1262 15.2226C20.4937 16.7449 19.4225 18.0461 18.0482 18.9615C16.674 19.877 15.0581 20.3656 13.4053 20.3656C11.7524 20.3656 10.1367 19.877 8.76233 18.9615C7.38806 18.0461 6.31689 16.7449 5.68433 15.2226C5.05188 13.7003 4.88635 12.0251 5.20874 10.4091C5.53125 8.79303 6.32715 7.30853 7.49597 6.14337L13.4053 0.252319Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

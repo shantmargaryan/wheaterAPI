@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.page {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.page__body {
+  height: 100%;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  padding-top: 30px;
+}
+
+
+.wheater {
+  max-width: 470px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgb(186, 205, 234);
+}
+
+.wheater__main {
+  
+}
+
+.wheater__main_hidden {
+}
+
+.form {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.form__input {
+  flex-grow: 1;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  backdrop-filter: blur(100px);
+  background: linear-gradient(134.42deg, rgba(255, 255, 255, 0.48) -1.761%, rgba(255, 255, 255, 0.12) 98.216%);
+}
+
+.form__button {
+  flex-shrink: 0;
+  padding: 0 15px;
+  align-self: stretch;
+  border-radius: 20px;
+  backdrop-filter: blur(100px);
+  background: linear-gradient(134.42deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 99.18%);
+  opacity: 0.64;
+  border: none;
+  cursor: pointer;
+}
+
+.form__icon {
+  width: 25px;
+  height: 25px;
+}
+
+.wheater__location-info {
+  font-size: 23px;
+}
+
+.wheater__temperature-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wheater__temperature {
+  max-width: 270px;
+  width: 100%;
+  position: relative;
+  font-size: 161.81px;
+}
+
+.wheater__celsius-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 31.57px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -5%;
+}
+
+.wheater__img {
+  flex-shrink: 0;
+  width: 80px;
+  height: 70px;
+}
+
+.wheater__date-time-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.wheater__date-month-year-box {
+  font-size: 35.52px;
+}
+
+.wheater__date {}
+
+.wheater__month {}
+
+.wheater__year {}
+
+.wheater__day-week-time-box {}
+
+.wheater__day-week {}
+
+.wheater__time {
+  font-size: 23.68px;
+  font-weight: 300;
+}
+
+.wheater__list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+.wheater__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 21.71px;
+}
+
+.wheater__item:not(:last-child) {}
+
+.wheater__item:not(:last-child)::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 2px;
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+.wheater__item-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.wheater__item-key {}
+
+.wheater__item-key_wind {}
+
+.wheater__item-value {}
+
+.wheater__item-value_wind {}
+
+.wheater__item-key_hum {}
+
+.wheater__item-value_hum {}
+
+.wheater__item-key_rain {}
+
+.wheater__item-value_rain {}

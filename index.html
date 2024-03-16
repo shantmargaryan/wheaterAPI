@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/main.js"></script>
+  <title>Wheater API</title>
+</head>
+
+<body class="page__body">
+  <main class="main">
+    <article class="wheater">
+      <form action="#" class="form wheater_header">
+        <input type="text" name="wheater_location" class="form__input" placeholder="Enter location">
+        <button class="form__button">
+          <svg class="form__icon">
+            <use xlink:href="svg/sprite.svg#search" />
+          </svg>
+        </button>
+      </form>
+      <div class="wheater__main">
+        <div class="wheater__location-info">
+          <span class="wheater__location-city"></span>
+          |
+          <span class="wheater__location-country"></span>
+        </div>
+        <div class="wheater__temperature-wrapper">
+          <div class="wheater__temperature">
+            <!-- <span class="wheater__celsius-icon">° C</span> -->
+          </div>
+          <img class="wheater__img" src="" alt="image">
+        </div>
+        <div class="wheater__date-time-wrapper">
+          <div class="wheater__date-month-year-box">
+
+          </div>
+          <span class="wheater__time"></span>
+        </div>
+        <ul class="wheater__list">
+          <li class="wheater__item">
+            <svg class="wheater__item-icon">
+              <use xlink:href="svg/sprite.svg#arrow" />
+            </svg>
+            <span class="wheater__item-key wheater__item-key_wind">Wind</span>
+            <span class="wheater__item-value wheater__item-value_wind"></span>
+          </li>
+          <li class="wheater__item">
+            <svg class="wheater__item-icon">
+              <use xlink:href="svg/sprite.svg#hum" />
+            </svg>
+            <span class="wheater__item-key wheater__item-key_hum">Hum</span>
+            <span class="wheater__item-value wheater__item-value_hum"></span>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </main>
+</body>
+
+</html>
