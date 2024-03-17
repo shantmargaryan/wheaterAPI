@@ -22,19 +22,16 @@
 
 
 .wheater {
-  max-width: 470px;
+  width: 80%;
   margin: 0 auto;
   padding: 40px;
   border-radius: 20px;
   background: rgb(186, 205, 234);
 }
 
-.wheater__main {
-  
-}
+.wheater__main {}
 
-.wheater__main_hidden {
-}
+.wheater__main_hidden {}
 
 .form {
   position: relative;
@@ -42,21 +39,23 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  width: 100%;
   margin-bottom: 30px;
 }
 
 .form__input {
   flex-grow: 1;
+  width: 100%;
   padding: 20px;
   border: none;
   border-radius: 20px;
   font-size: 20px;
+  outline: none;
   backdrop-filter: blur(100px);
   background: linear-gradient(134.42deg, rgba(255, 255, 255, 0.48) -1.761%, rgba(255, 255, 255, 0.12) 98.216%);
 }
 
 .form__button {
-  flex-shrink: 0;
   padding: 0 15px;
   align-self: stretch;
   border-radius: 20px;
